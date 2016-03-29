@@ -1,0 +1,6 @@
+article {
+  display: inline-block;
+  border: 2px solid black;
+  width: 30%;
+  word-wrap: break-word;
+}
