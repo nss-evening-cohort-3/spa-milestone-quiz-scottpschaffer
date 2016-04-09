@@ -1,0 +1,76 @@
+{
+  "cars": [
+    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "year": "2006",
+      "price": "$8999",
+      "color": "FireBrick",
+      "purchased": false,
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+      "make": "Toyota",
+      "model": "Prius",
+      "year": "2010",
+      "price": "$18999",
+      "color": "lightblue",
+      "purchased": false,
+      "description": "This is an excellent steal for its price. Only 12000 miles on it. 6 CD Changer, rear camera, Anti-lock brakes."      
+    },
+    {
+      "make": "Honda",
+      "model": "Accord",
+      "year": "2007",
+      "price": "$5699",
+      "color": "green",
+      "purchased": true,
+      "description": "This is a tough ride with a lot of miles on it, but has a lot going for it. Great sound system."
+    },
+    {
+      "make": "Subaru",
+      "model": "Forester",
+      "year": "2002",
+      "price": "$7999",
+      "color": "yellow",
+      "purchased": false,
+      "description": "This is an old, but reliable car."
+    },
+    {
+      "make": "Hyundai",
+      "model": "Santa Fe",
+      "year": "2010",
+      "price": "$13999",
+      "color": "brown",
+      "purchased": false,
+      "description": "This is a good car with lots of storage space."
+    },
+    {
+      "make": "Jeep",
+      "model": "Grand Cherokee",
+      "year": "2009",
+      "price": "$11999",
+      "color": "blue",
+      "purchased": true,
+      "description": "This is a beautiful vehicle with four-wheel drive."
+    },
+    {
+      "make": "Porsche",
+      "model": "Cayenne",
+      "year": "2013",
+      "price": "$21799",
+      "color": "black",
+      "purchased": false,
+      "description": "This is a steal at such a low price. Don't tell anyone I told you."
+    },
+    {
+      "make": "Fiat",
+      "model": "500",
+      "year": "2015",
+      "price": "$12999",
+      "color": "red",
+      "purchased": false,
+      "description": "Stop laughing! This is a good car!"
+    }
+  ]
+}
