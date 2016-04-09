@@ -1,5 +1,23 @@
 # Single Page Applications Quiz
 
+### Description:
+> The purpose of this project is to create a screen of Car "cards" using Bootstrap. Each card is clickable and when clicked, the textbox gets focus, so when typed in, the Description of that card will change accordingly.
+
+### How to run:
+
+> You need to have bootstrap.min.css in the root folder.
+
+```
+http-server -p 8888
+```
+
+> This will show at:
+`http://localhost:8888`
+
+### Contributors:
+-[Scott Schaffer](https://github.com/scottpschaffer)
+
+
 ## Setup
 
 1. Create the working directory for the quiz first.
