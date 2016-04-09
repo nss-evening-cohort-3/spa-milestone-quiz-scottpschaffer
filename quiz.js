@@ -1,8 +1,11 @@
+// Populates the div with the inventory of cars
 function populatePage(inventory){
 
+  // Get div element
   let carLotDiv = document.getElementById("carArea");
   carLotDiv.innerHTML = "";
 
+  // Loop for all car
   for (var i=0; i<inventory.length; i++){
     
     // If first car in row of 3 cars, then start div
@@ -22,9 +25,8 @@ function populatePage(inventory){
   }
 }
 
-
+// call Inventory and then run populatePage as callback
 CarLot.loadInventory(populatePage);
-alert("dddd");
-CarLot.wawa();
 
-//CarLot.makeChanges();
+// Initialize all Event Listeners
+CarLot.activateEvents();

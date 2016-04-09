@@ -16,7 +16,7 @@
       "price": "$18999",
       "color": "lightblue",
       "purchased": false,
-      "description": "This is an excellent steal for its price. Only 12000 miles on it. 6 CD Changer, rear camera, Anti-lock breakes."      
+      "description": "This is an excellent steal for its price. Only 12000 miles on it. 6 CD Changer, rear camera, Anti-lock brakes."      
     },
     {
       "make": "Honda",
@@ -25,7 +25,7 @@
       "price": "$5699",
       "color": "green",
       "purchased": true,
-      "description": "This is a tough ride with a lot of miles on it, but has a lot going for it. Great Sound system."
+      "description": "This is a tough ride with a lot of miles on it, but has a lot going for it. Great sound system."
     },
     {
       "make": "Subaru",
@@ -61,7 +61,7 @@
       "price": "$21799",
       "color": "black",
       "purchased": false,
-      "description": "This is a steal at such a low price Don't tell anyone I told you."
+      "description": "This is a steal at such a low price. Don't tell anyone I told you."
     },
     {
       "make": "Fiat",
