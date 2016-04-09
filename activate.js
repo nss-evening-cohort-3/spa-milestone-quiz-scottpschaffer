@@ -1,13 +1,15 @@
+"use strict";
+
 // IIFE that handles adding Event Listeners
 var CarLot = (function(originalCarLot){
 
   originalCarLot.activateEvents = function(){
     // f is the previously selected car (starts out as NULL and needs to be global so can be used by both Event Listeners)
-    var f = null;
+    let f = null;
     // Gets div element that contains cars
-    var carLotDiv = document.getElementById("carArea");
+    let carLotDiv = document.getElementById("carArea");
     // Gets input element where changes to selected car's description is typed
-    var iBox = document.getElementById("infoBox");
+    let iBox = document.getElementById("infoBox");
 
     // Add Event Listener to div that contains cars to wait for mouseclick
     carLotDiv.addEventListener("click", function(e){

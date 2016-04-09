@@ -1,11 +1,13 @@
+"use strict";
+
 // Base IIFE
 var CarLot = (function(){
   // Stores array of car information
-  var inventory = [];
+  let inventory = [];
   // div that holds car HTML
-  var carLotDiv = document.getElementById("carArea");
+  let carLotDiv = document.getElementById("carArea");
   // Textbox that user types into to change car descriptions
-  var iBox = document.getElementById("infoBox");
+  let iBox = document.getElementById("infoBox");
   return {
 
     // Function that returns inventory
@@ -15,7 +17,7 @@ var CarLot = (function(){
 
     // Function that reads JSON file and writes it to inventory array (XHR), then passes inventory to callback function
     loadInventory: function(cBack){
-      var inventoryLoader = new XMLHttpRequest();
+      let inventoryLoader = new XMLHttpRequest();
       inventoryLoader.addEventListener("load", function(){
         inventory = JSON.parse(this.responseText).cars;
         

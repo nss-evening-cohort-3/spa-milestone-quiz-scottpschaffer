@@ -1,3 +1,5 @@
+"use strict";
+
 // IIFE that handles changes to car
 var CarLot = (function(onClickCarLot){
   
